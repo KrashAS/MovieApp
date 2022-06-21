@@ -21,6 +21,7 @@ export const FullMovie = () => {
         console.warn("FullMovie", err);
       });
   }, [id]);
+  
   return (
     <div className={styles.root}>
       <div className={styles.topBlock}>
