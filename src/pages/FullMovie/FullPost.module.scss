@@ -81,4 +81,16 @@
   .poster {
     display: none;
   }
+  iframe {
+    width: 100%;
+  }
+  .details {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .title {
+    font-size: 32px;
+  }
 }
